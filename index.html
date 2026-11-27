@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#185b3a">
+    <title>Student Registration | De La Salle John Bosco College</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <nav class="navbar" aria-label="Main navigation">
+            <a class="brand" href="#home">
+                <img class="school-logo" src="data:image/png;base64,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"
+                     alt="De La Salle John Bosco College school seal">
+                <span>De La Salle John Bosco College<small>Student Registration System</small></span>
+            </a>
+            <button class="menu-toggle" id="menuToggle" type="button"
+                    aria-label="Open navigation menu" aria-expanded="false"
+                    aria-controls="primaryNavigation">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-links" id="primaryNavigation">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#registration">Registration</a></li>
+                <li><a href="#records">Registered Students</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="app-view" id="home" aria-labelledby="homeTitle">
+            <div class="home-shell section-wrap">
+                <div class="hero">
+                    <div class="hero-content">
+                        <p class="eyebrow">STUDENT PORTAL</p>
+                        <h1 id="homeTitle">Welcome to<br>De La Salle John Bosco College</h1>
+                        <a class="button-link" href="#registration">
+                            Go to Registration
+                            <span aria-hidden="true">&rarr;</span>
+                        </a>
+                    </div>
+                    <div class="hero-mark" role="img" aria-label="De La Salle John Bosco College school seal"></div>
+                </div>
+
+                <div class="home-features" aria-label="Portal features">
+                    <article class="feature-card">
+                        <span class="feature-number" aria-hidden="true">01</span>
+                        <h2>Student registration</h2>
+                        <p>Enter student details through a guided form with helpful field validation.</p>
+                    </article>
+                    <article class="feature-card">
+                        <span class="feature-number" aria-hidden="true">02</span>
+                        <h2>Records in one place</h2>
+                        <p>Search, sort, update, and export the registrations saved in this browser.</p>
+                    </article>
+                    <article class="feature-card feature-card-note">
+                        <span class="feature-number" aria-hidden="true">03</span>
+                        <h2>Quick to get started</h2>
+                        <p>Choose Registration in the menu or use the button above to continue.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="app-view" id="registration" aria-labelledby="registrationTitle" hidden>
+            <div class="container section-wrap">
+                <div class="section-heading">
+                    <p class="eyebrow">STUDENT DETAILS</p>
+                    <h1 id="registrationTitle" tabindex="-1">Student Registration</h1>
+                    <p>Complete every field. Your information stays in this browser.</p>
+                </div>
+
+                <form id="registrationForm" novalidate>
+                <div class="form-grid">
+                    <div class="field">
+                        <label for="fullname">Full Name <span aria-hidden="true">*</span></label>
+                        <input type="text" id="fullname" name="fullname" required minlength="15"
+                               autocomplete="name" placeholder="e.g. Alex Dela Cruz"
+                               aria-describedby="fullnameHint fullnameError" aria-invalid="false">
+                        <small class="field-hint" id="fullnameHint">At least 15 characters.</small>
+                        <span class="field-error" id="fullnameError"></span>
+                    </div>
+
+                    <div class="field">
+                        <label for="studentID">Student ID <span aria-hidden="true">*</span></label>
+                        <input type="text" id="studentID" name="studentID" required pattern="[0-9]{7,}"
+                               autocomplete="off" inputmode="numeric" placeholder="e.g. 2026001"
+                               aria-describedby="studentIDHint studentIDError" aria-invalid="false">
+                        <small class="field-hint" id="studentIDHint">At least 7 digits; numbers only.</small>
+                        <span class="field-error" id="studentIDError"></span>
+                    </div>
+
+                    <div class="field">
+                        <label for="email">Email Address <span aria-hidden="true">*</span></label>
+                        <input type="email" id="email" name="email" required
+                               autocomplete="email" inputmode="email" placeholder="you@example.com"
+                               aria-describedby="emailError" aria-invalid="false">
+                        <span class="field-error" id="emailError"></span>
+                    </div>
+
+                    <div class="field">
+                        <label for="phone">Contact Number <span aria-hidden="true">*</span></label>
+                        <input type="tel" id="phone" name="phone" required
+                               autocomplete="tel" inputmode="tel" placeholder="09XXXXXXXXX or +639XXXXXXXXX"
+                               aria-describedby="phoneHint phoneError" aria-invalid="false">
+                        <small class="field-hint" id="phoneHint">Use a Philippine mobile number, with or without the +63 country code.</small>
+                        <span class="field-error" id="phoneError"></span>
+                    </div>
+
+                    <div class="field">
+                        <label for="course">Course <span aria-hidden="true">*</span></label>
+                        <select id="course" name="course" required
+                                aria-describedby="courseError" aria-invalid="false">
+                            <option value="">Select your course</option>
+                            <option value="BS Accountancy">BS Accountancy</option>
+                            <option value="BSIT">BS Information Technology</option>
+                            <option value="BSCS">BS Computer Science</option>
+                            <option value="BSBA">BS Business Administration</option>
+                            <option value="BSED">BS Education</option>
+                        </select>
+                        <span class="field-error" id="courseError"></span>
+                    </div>
+
+                    <div class="field">
+                        <label for="year">Year Level <span aria-hidden="true">*</span></label>
+                        <select id="year" name="year" required
+                                aria-describedby="yearError" aria-invalid="false">
+                            <option value="">Select year level</option>
+                            <option value="1st Year">1st Year</option>
+                            <option value="2nd Year">2nd Year</option>
+                            <option value="3rd Year">3rd Year</option>
+                            <option value="4th Year">4th Year</option>
+                        </select>
+                        <span class="field-error" id="yearError"></span>
+                    </div>
+
+                    <div class="field field-full">
+                        <label for="address">Address <span aria-hidden="true">*</span></label>
+                        <textarea id="address" name="address" required minlength="10"
+                                  autocomplete="street-address" placeholder="Enter your complete address"
+                                  aria-describedby="addressHint addressError" aria-invalid="false"></textarea>
+                        <small class="field-hint" id="addressHint">At least 10 characters.</small>
+                        <span class="field-error" id="addressError"></span>
+                    </div>
+                </div>
+
+                <div class="buttons">
+                    <button class="primary-button" id="submitButton" type="submit">Review Registration</button>
+                    <button class="secondary-button" type="reset">Clear</button>
+                    <button class="text-button" id="cancelEditButton" type="button" hidden>Cancel edit</button>
+                </div>
+                <p class="form-note"><span aria-hidden="true">*</span> Required fields</p>
+                </form>
+
+                <p id="confirmation" class="notice" role="status" aria-live="polite"></p>
+            </div>
+        </section>
+
+        <section class="app-view" id="records" aria-labelledby="recordsTitle" hidden>
+            <div class="container section-wrap records-section">
+                <div class="section-heading">
+                    <p class="eyebrow">REGISTRATION MANAGEMENT</p>
+                    <h1 id="recordsTitle" tabindex="-1">Registered Students</h1>
+                    <p>Search, sort, edit, or remove registrations saved on this device.</p>
+                </div>
+
+                <div class="table-toolbar">
+                    <div class="field search-field">
+                        <label for="studentSearch">Search students</label>
+                        <input type="search" id="studentSearch" placeholder="Name, ID, email, or course"
+                               autocomplete="off">
+                    </div>
+                    <button class="secondary-button export-button" id="exportButton" type="button">Export to CSV</button>
+                </div>
+
+                <div id="studentGroups" class="student-groups"
+                     aria-label="Student registrations grouped by course and year level"></div>
+                <p id="tableStatus" class="table-status" role="status" aria-live="polite"></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>De La Salle John Bosco College | 2026</p>
+    </footer>
+
+    <dialog id="reviewDialog" aria-labelledby="reviewTitle" aria-describedby="reviewDescription">
+        <div class="dialog-content">
+            <p class="eyebrow">PLEASE CHECK YOUR DETAILS</p>
+            <h2 id="reviewTitle">Review your registration</h2>
+            <p id="reviewDescription">Confirm that the information below is correct before saving.</p>
+            <dl class="summary-list" id="reviewSummary"></dl>
+            <div class="dialog-actions">
+                <button class="secondary-button" id="cancelReviewButton" type="button">Go back</button>
+                <button class="primary-button" id="confirmButton" type="button">Confirm and save</button>
+            </div>
+        </div>
+    </dialog>
+
+    <script src="script.js"></script>
+</body>
+</html>
